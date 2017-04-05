@@ -39,4 +39,3 @@ select * from employees
 
 select * from employees
 	where first_name = 'leni' order by gender desc, last_name desc;
-

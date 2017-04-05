@@ -4,40 +4,7 @@ select * from employees where last_name like 'e%e' group by last_name;
 
 select * from employees where last_name like 'e%e' group by last_name, first_name;
 
-select * from employees where last_name lik '%q%' and last_name not like '%qu%'
-
-
-select distinct 'senior engineer', 'staff', 'engineer', 'senior staff', 'assistant engineer', 'technique leader', 'manager'
-	from titles;
-
-
-
-select distinct 'senior engineer', 'staff', 'engineer', 'senior staff', 'assistant engineer', 'technique leader', 'manager'
-	from titles;
-
-
-
-
-select distinct 'senior engineer', 'staff', 'engineer', 'senior staff', 'assistant engineer', 'technique leader', 'manager'
-	from titles;
-
-
-
-
-
-select distinct 'senior engineer', 'staff', 'engineer', 'senior staff', 'assistant engineer', 'technique leader', 'manager'
-	from titles;
-
-
-
-
-
-
-
-
-
-
-
+select * from employees where last_name lik '%q%' and last_name not like '%qu%';
 
 
 
